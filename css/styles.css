@@ -1,0 +1,92 @@
+/* Color Palette
+# - rgb(202, 202, 170)
+# - rgb(238, 197, 132)
+# - rgb(200, 171, 131)
+# - rgb(85, 134, 140)
+# - rgb(127, 99, 110)
+*/
+
+/* Box model fix */
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+/* Global styles 
+------------------------------------*/
+body {
+    font-family: 'Syne', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.2em;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+    margin-top: 0;
+}
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+
+.column-wide {
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
+
+/* Header & Footer 
+------------------------------------*/
+.header-bg {
+    background: rgb(202, 202, 170);
+}
+
+header h1, header h2 {
+    margin: 0;
+}
+
+.profile-img {
+    border-radius: 50%;
+}
+
+.contact {
+    background: rgb(85, 134, 140);
+}
+
+footer {
+    text-align: center;
+}
+
+.contact-info a {
+    padding: 10px;
+    display: inline-block;
+}
+
+/* Work Experience
+------------------------------------*/
+.work-history {
+    background: rgb(238, 197, 132);
+}
+
+/* Education
+------------------------------------*/
+.education-bg {
+    background: rgb(200, 171, 131);
+}
